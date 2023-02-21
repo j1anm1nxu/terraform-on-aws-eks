@@ -1,18 +1,27 @@
-# [Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
+# [Terraform on AWS EKS Kubernetes IaC](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
 
+<!-- 
 [![Image](https://stacksimplify.com/course-images/terraform-on-aws-eks-kubernetes.png "Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos ")](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
+-->
 
-
-## Course Modules
-01. Infrastructure as Code (IaC)
-02. Terraform Install Tools, Command and Language Basics
-03. Terraform Settings, Providers and Resources
-04. Terraform Input Variables, Output Values, Datasources
-05. Terraform Loops, MetaArguments, Splat Operator and Functions
-06. AWS VPC 3-Tier Architecture Design using Terraform
-07. Bastion Host AWS EC2 Instances, Security Groups, TF Provisioners with Terraform 
-08. AWS EKS Cluster, Public and Private Node Groups using Terraform
-09. Kubernetes Fundamentals
+<!-- ## Course Modules -->
+## Table of Contents
+01. [Infrastructure as Code (IaC)](01-Infrastructure-as-Code-IaC-Basics/README.md)
+2.  Terraform Install Tools, Command and Language Basics
+    - [Tools](02-Terraform-Basics/02-01-Install-Tools-TerraformCLI-AWSCLI-VSCodeIDE/README.md)
+    - [Command](02-Terraform-Basics/02-02-Terraform-Command-Basics/README.md)
+    - [Language](02-Terraform-Basics/02-03-Terraform-Language-Syntax/README.md)
+3.  [Terraform Settings, Providers and Resources](03-Terraform-Settings-Providers-Resources/README.md)
+4.  [Terraform Input Variables, Output Values, Datasources](04-Terraform-Variables-and-Datasources/README.md)
+5.  Terraform Loops, MetaArguments, Splat Operator and Functions
+    - [Terraform For Loops, Lists, Maps and Count Meta-Argument](05-Terraform-Loops-MetaArguments-SplatOperator/05-01-MetaArgument-Count-For-Loops-Lists-Maps/README.md)
+    - [Terraform for_each Meta-Argument with Functions toset, tomap](05-Terraform-Loops-MetaArguments-SplatOperator/05-02-MetaArgument-for_each/README.md)
+    - [Terraform Small Utility Project](05-Terraform-Loops-MetaArguments-SplatOperator/05-03-Utility-Project/README.md)
+    - [Meta-Argument for_each with AZ Instance Type Check](05-Terraform-Loops-MetaArguments-SplatOperator/05-04-for_each-with-az-instancetype-check/README.md)
+6.  AWS VPC 3-Tier Architecture Design using Terraform
+7.  Bastion Host AWS EC2 Instances, Security Groups, TF Provisioners with Terraform 
+8.  AWS EKS Cluster, Public and Private Node Groups using Terraform
+9.  Kubernetes Fundamentals
 10. Kubernetes Deployment and Service using YAML
 11. Terraform Kubernetes Provider - Kubernetes Deployment & Service
 12. Terraform Remote State Storage - AWS S3 & DynamoDB
@@ -174,6 +183,10 @@
 - 30 Day "No Questions Asked" Money Back Guarantee!
 
 ## My Other AWS Courses
+
+- Terraform on EKS
+  [![Image](https://stacksimplify.com/course-images/terraform-on-aws-eks-kubernetes.png "Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos ")](https://links.stacksimplify.com/terraform-on-aws-eks-kubernetes-iac-sre)
+
 - [Udemy Enroll](https://www.stacksimplify.com/azure-aks/courses/stacksimplify-best-selling-courses-on-udemy/)
 
 ## Stack Simplify Udemy Profile
