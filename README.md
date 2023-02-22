@@ -19,15 +19,30 @@
     - [Terraform Small Utility Project](05-Terraform-Loops-MetaArguments-SplatOperator/05-03-Utility-Project/README.md)
     - [Meta-Argument for_each with AZ Instance Type Check](05-Terraform-Loops-MetaArguments-SplatOperator/05-04-for_each-with-az-instancetype-check/README.md)
 6.  AWS VPC 3-Tier Architecture Design using Terraform
-7.  Bastion Host AWS EC2 Instances, Security Groups, TF Provisioners with Terraform 
-8.  AWS EKS Cluster, Public and Private Node Groups using Terraform
-9.  Kubernetes Fundamentals
-10. Kubernetes Deployment and Service using YAML
-11. Terraform Kubernetes Provider - Kubernetes Deployment & Service
-12. Terraform Remote State Storage - AWS S3 & DynamoDB
-13. AWS EKS IAM Roles for Service Accounts (IRSA) using Terraform
-14. AWS EKS EBS CSI Driver Install with Self-Managed AddOn Option using Terraform
-15. AWS EKS EBS Demo using k8s YAML  (UserMgmt WebApp with MySQL DB)
+    - [AWS VPC 3-Tier Architecture Design using Terraform](06-AWS-VPC/06-01-AWS-VPC-using-Mgmt-Console/README.md)
+    - [AWS VPC 3-Tier Architecture Design using Terraform](06-AWS-VPC/06-02-AWS-VPC-using-Terraform/README.md)
+7.  [Bastion Host AWS EC2 Instances, Security Groups, TF Provisioners with Terraform](07-AWS-EC2-BastionHos/README.md) 
+8.  [AWS EKS Cluster, Public and Private Node Groups using Terraform](08-AWS-EKS-Cluster-Basics/README.md)
+    - [01-ekscluster-terraform-manifest](08-AWS-EKS-Cluster-Basics/01-ekscluster-terraform-manifests)
+9.  [Kubernetes Fundamentals](09-Kubernetes-Fundamentals/README.md)
+10. [Kubernetes Deployment and Service using YAML](10-Kubernetes-Deployment-and-Service/README.md)
+    - [kube-manifests](10-Kubernetes-Deployment-and-Service/kube-manifests)
+11. [Terraform Kubernetes Provider - Kubernetes Deployment & Service](11-Kubernetes-Resources-via-Terraform/README.md)
+    - [11-Kubernetes-Resources-via-Terraform](11-Kubernetes-Resources-via-Terraform/02-k8sresources-terraform-manifests)
+12. [Terraform Remote State Storage - AWS S3 & DynamoDB](12-Terraform-Remote-State-Storage/README.md)
+    - [01-ekscluster-terraform-manifests](12-Terraform-Remote-State-Storage/01-ekscluster-terraform-manifests)
+    - [02-k8sresources-terraform-manifests](12-Terraform-Remote-State-Storage/02-k8sresources-terraform-manifests)
+13. [AWS EKS IAM Roles for Service Accounts (IRSA) using Terraform](13-EKS-IRSA/README.md)
+    - [01-ekscluster-terraform-manifests](13-EKS-IRSA/01-ekscluster-terraform-manifests)
+    - [02-eks-irsa-demo-terraform-manifests](13-EKS-IRSA/02-eks-irsa-demo-terraform-manifests)
+14. [AWS EKS EBS CSI Driver Install with Self-Managed AddOn Option using Terraform](14-EBS-CSI-Install-Kubernetes-Storage/README.md)
+    - [01-ekscluster-terraform-manifests](14-EBS-CSI-Install-Kubernetes-Storage/01-ekscluster-terraform-manifests)
+    - [02-ebs-terraform-manifests](14-EBS-CSI-Install-Kubernetes-Storage/02-ebs-terraform-manifests)
+    - [other-files-for-review](14-EBS-CSI-Install-Kubernetes-Storage/other-files-for-review)
+15. [AWS EKS EBS Demo using k8s YAML  (UserMgmt WebApp with MySQL DB)](15-EBS-Kubernetes-SampleApp-YAML/README.md)
+    - [01-ekscluster-terraform-manifests](15-EBS-Kubernetes-SampleApp-YAML/01-ekscluster-terraform-manifests)
+    - [02-ebs-terraform-manifests](15-EBS-Kubernetes-SampleApp-YAML/02-ebs-terraform-manifests)
+    - [03-kube-manifests-UMS-WebApp](15-EBS-Kubernetes-SampleApp-YAML/03-kube-manifests-UMS-WebApp)
 16. AWS EKS EBS Demo using k8s Terraform  (UserMgmt WebApp with MySQL DB)
 17. AWS EKS EBS Volumes Retain and Resize Settings
 18.  AWS EBS CSI EKS Add-On
