@@ -45,49 +45,74 @@
     - [01-ekscluster-terraform-manifests](15-EBS-Kubernetes-SampleApp-YAML/01-ekscluster-terraform-manifests)
     - [02-ebs-terraform-manifests](15-EBS-Kubernetes-SampleApp-YAML/02-ebs-terraform-manifests)
     - [03-kube-manifests-UMS-WebApp](15-EBS-Kubernetes-SampleApp-YAML/03-kube-manifests-UMS-WebApp)
-16. AWS EKS EBS Demo using k8s Terraform  (UserMgmt WebApp with MySQL DB)
-17. AWS EKS EBS Volumes Retain and Resize Settings
-18.  AWS EBS CSI EKS Add-On
-19. Provision AWS IAM Admin User as EKS Admin
-20. Provision AWS IAM Basic User as EKS Admin
-21. Provision of AWS Users (Admin & Basic) as EKS Admins using Terraform
-22. Provision EKS Admins using IAM Roles & IAM Groups
-23. Provision EKS Admins using IAM Roles & IAM Groups using Terraform
-24. Provision EKS ReadOnly User using IAM Roles, Groups & k8s CR, CRB
-25. Provision EKS Developer Users using IAM Roles, Groups & k8s R, RB
-26. AWS Load Balancer Controller Install using Terraform Helm Provider
-27. Ingress Basics - Automate with Terraform
-28. Ingress Context Path based Routing - Automate with Terraform
-29. Ingress SSL and SSL Redirect - Automate with Terraform
-30. Install ExternalDNS using Terraform Helm Provider
-31. Ingress with ExternalDNS - Automate with Terraform
-32. Kubernetes LB Service with ExternalDNS - Automate with Terraform
-33. Ingress Name based Virtual Host Routing- Automate with Terraform
-34. Ingress SSL Discovery Host
-35. Ingress SSL Discovery TLS
-36. Ingress Groups - Automate with Terraform
-37. Ingress Target Type IP - Automate with Terraform
-38. Ingress Internal Load Balancer - Automate with Terraform
-39. Ingress Cross Namespaces - Automate with Terraform
-40. AWS Network Load Balancer with AWS Load Balancer Controller
-41. AWS NLB TLS, External DNS with AWS LBC - Automate with Terraform
-42. AWS NLB Internal LB with AWS LBC - Automate with Terraform
-43. AWS EKS Fargate Profiles using Terraform
-44. Run EKS Workloads on AWS Fargate - Automate with Terraform
-45. AWS Fargate Only EKS Cluster using Terraform
-46. AWS EFS CSI Controller Install using Terraform Helm Provider
-47. AWS EFS Static Provisioning - Automate with Terraform
-48. AWS EFS Dynamic Provisioning - Automate with Terraform
-49. AWS EFS File System Mount for Fargate Workloads 
-50. Kubernetes Cluster Autoscaler Controller Install 
-51. Kubernetes Cluster Autoscaler Controller Test
-52. Kubernetes Horizontal Pod Autoscaling with Terraform
-53. Kubernetes Vertical Pod Autoscaling with Terraform
-54. AWS EKS Monitoring and Logging with kubectl
-55. AWS EKS Monitoring and Logging with Terraform
+16. [AWS EKS EBS Demo using k8s Terraform  (UserMgmt WebApp with MySQL DB)](16-EBS-Kubernetes-SampleApp-Terraform/README.md)
+    - [01-ekscluster-terraform-manifests](16-EBS-Kubernetes-SampleApp-Terraform/01-ekscluster-terraform-manifests/)
+    - [02-ebs-terraform-manifests](16-EBS-Kubernetes-SampleApp-Terraform/02-ebs-terraform-manifests/)
+    - [03-terraform-manifests-UMS-WebApp](16-EBS-Kubernetes-SampleApp-Terraform/03-terraform-manifests-UMS-WebApp/)
+17. [AWS EKS EBS Volumes Retain and Resize Settings](17-EBS-Resizing-on-EKS/README.md)
+    - [01-ekscluster-terraform-manifests](17-EBS-Resizing-on-EKS/01-ekscluster-terraform-manifests/)
+    - [02-ebs-terraform-manifests](17-EBS-Resizing-on-EKS/02-ebs-terraform-manifests/)
+    - [03-terraform-manifests-UMS-WebApp](17-EBS-Resizing-on-EKS/03-terraform-manifests-UMS-WebApp/)
+18. [AWS EBS CSI EKS Add-On](18-EBS-CSI-Install-using-EKS-AddOn/README.md)
+    - [01-ekscluster-terraform-manifests](18-EBS-CSI-Install-using-EKS-AddOn/01-ekscluster-terraform-manifests/)
+    - [02-ebs-addon-terraform-manifests](18-EBS-CSI-Install-using-EKS-AddOn/02-ebs-addon-terraform-manifests/)
+    - [03-terraform-manifests-UMS-WebApp](18-EBS-CSI-Install-using-EKS-AddOn/03-terraform-manifests-UMS-WebApp/)
+    - [backup](18-EBS-CSI-Install-using-EKS-AddOn/backup/)
+19. [Provision AWS IAM Admin User as EKS Admin](19-EKS-Admins-AWS-Admin-User/README.md)
+    - [01-ekscluster-terraform-manifests](19-EKS-Admins-AWS-Admin-User/01-ekscluster-terraform-manifests/)
+20. [Provision AWS IAM Basic User as EKS Admin](20-EKS-Admins-AWS-Basic-User/README.md)
+    - [01-ekscluster-terraform-manifests](20-EKS-Admins-AWS-Basic-User/01-ekscluster-terraform-manifests/)
+    - [iam-files](20-EKS-Admins-AWS-Basic-User/iam-files/)
+21. [Provision of AWS Users (Admin & Basic) as EKS Admins using Terraform](21-EKS-Admins-as-AWS-IAM-Users/README.md)
+    - [01-ekscluster-terraform-manifests](21-EKS-Admins-as-AWS-IAM-Users/01-ekscluster-terraform-manifests/)
+22. [Provision EKS Admins using IAM Roles & IAM Groups](22-EKS-Admins-with-AWS-IAM-Roles/README.md)
+    - [01-ekscluster-terraform-manifests](22-EKS-Admins-with-AWS-IAM-Roles/01-ekscluster-terraform-manifests/)
+    - [iam-files](22-EKS-Admins-with-AWS-IAM-Roles/iam-files/)
+23. [Provision EKS Admins using IAM Roles & IAM Groups using Terraform](23-EKS-Admins-with-AWS-IAM-Roles-TF/README.md)
+    - [01-ekscluster-terraform-manifests](23-EKS-Admins-with-AWS-IAM-Roles-TF/01-ekscluster-terraform-manifests/)
+24. [Provision EKS ReadOnly User using IAM Roles, Groups & k8s CR, CRB](24-EKS-ReadOnly-IAM-Users/README.md)
+    - [for-reference-aws-auth](24-EKS-ReadOnly-IAM-Users/for-reference-aws-auth.yaml)
+    - [01-ekscluster-terraform-manifests](24-EKS-ReadOnly-IAM-Users/01-ekscluster-terraform-manifests/)
+    - [02-kube-manifests-crb-cr](24-EKS-ReadOnly-IAM-Users/02-kube-manifests-crb-cr/)
+25. [Provision EKS Developer Users using IAM Roles, Groups & k8s R, RB](25-EKS-DeveloperAccess-IAM-Users/README.md)
+    - [01-ekscluster-terraform-manifests](25-EKS-DeveloperAccess-IAM-Users/01-ekscluster-terraform-manifests/)
+    - [02-kube-manifests-rb-r](25-EKS-DeveloperAccess-IAM-Users/02-kube-manifests-rb-r/)
+    - [03-app1-kube-manifests](25-EKS-DeveloperAccess-IAM-Users/03-app1-kube-manifests/)
+    - [04-k8sresources-terraform-manifests](25-EKS-DeveloperAccess-IAM-Users/04-k8sresources-terraform-manifests/)
+    - [other-files](25-EKS-DeveloperAccess-IAM-Users/other-files/)
+    - [for-reference-aws-auth](25-EKS-DeveloperAccess-IAM-Users/for-reference-aws-auth.yaml)
+26. [AWS Load Balancer Controller Install using Terraform Helm Provider]()
+27. [Ingress Basics - Automate with Terraform]()
+28. [Ingress Context Path based Routing - Automate with Terraform]()
+29. [Ingress SSL and SSL Redirect - Automate with Terraform]()
+30. [Install ExternalDNS using Terraform Helm Provider]()
+31. [Ingress with ExternalDNS - Automate with Terraform]()
+32. [Kubernetes LB Service with ExternalDNS - Automate with Terraform]()
+33. [Ingress Name based Virtual Host Routing- Automate with Terraform]()
+34. [Ingress SSL Discovery Host]()
+35. [Ingress SSL Discovery TLS]()
+36. [Ingress Groups - Automate with Terraform]()
+37. [Ingress Target Type IP - Automate with Terraform]()
+38. [Ingress Internal Load Balancer - Automate with Terraform]()
+39. [Ingress Cross Namespaces - Automate with Terraform]()
+40. [AWS Network Load Balancer with AWS Load Balancer Controller]()
+41. [AWS NLB TLS, External DNS with AWS LBC - Automate with Terraform]()
+42. [AWS NLB Internal LB with AWS LBC - Automate with Terraform]()
+43. [AWS EKS Fargate Profiles using Terraform]()
+44. [Run EKS Workloads on AWS Fargate - Automate with Terraform]()
+45. [AWS Fargate Only EKS Cluster using Terraform]()
+46. [AWS EFS CSI Controller Install using Terraform Helm Provider]()
+47. [AWS EFS Static Provisioning - Automate with Terraform]()
+48. [AWS EFS Dynamic Provisioning - Automate with Terraform]()
+49. [AWS EFS File System Mount for Fargate Workloads]()
+50. [Kubernetes Cluster Autoscaler Controller Install]()
+51. [Kubernetes Cluster Autoscaler Controller Test]()
+52. [Kubernetes Horizontal Pod Autoscaling with Terraform]()
+53. [Kubernetes Vertical Pod Autoscaling with Terraform]()
+54. [AWS EKS Monitoring and Logging with kubectl]()
+55. [AWS EKS Monitoring and Logging with Terraform]()
 
-
-
+---
 ## Kubernetes Concepts Covered
 01. Kubernetes Deployments
 02. Kubernetes Pods
